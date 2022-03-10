@@ -147,3 +147,12 @@ a:hover{
      left: -4%;
  }
 
+ @media (max-width: 850px) { 
+    .container .box{
+        max-width: 70%;
+        min-width: 70%;
+        min-height: 40%;
+        max-height: 40%;
+    }
+  }
+
