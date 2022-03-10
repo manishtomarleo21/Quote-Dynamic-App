@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+    color: white;
+    font-family: 'Fredoka', sans-serif
+}
+
+.container .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    background-color: #d2a813;
+    background-image: linear-gradient(315deg, #d2a813 0%, #000000 74%);
+    box-shadow: rgba(58, 56, 57, 0.4) 5px 5px, rgba(46, 40, 44, 0.3) 10px 10px, rgba(37, 32, 35, 0.2) 15px 15px, rgba(34, 23, 30, 0.1) 20px 20px, rgba(29, 19, 25, 0.05) 25px 25px;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    max-width: 50%;
+    min-width: 50%;
+    min-height: 68%;
+    max-height: 68%;
+    
+}
+
+h2{
+    margin: 0rem 7rem 0rem 7rem;
+    padding: 1rem 5rem 1rem 5rem;
+    font-size: 2rem;
+    color: #ffc300
+    
+    
+}
+
+.quote_box{
+    width: 80%;
+    text-align: center;
+    margin-bottom: 6rem;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    max-width: 90%;
+    /* min-height: 10%; */
+    max-height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    
+    
+}
+
+#quote{
+    text-align: left;
+    max-width: 75%;
+    height: 2rem;
+    position: relative;
+    left: -1rem;
+   
+    
+}
+
+.author_box{
+    width: 100%;
+    text-align: right;
+    margin-right: 5rem;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    
+     
+}
+
+a{
+    margin: 0.5rem;
+    height: 70px;
+    width: 70px;
+    background: #FFC300;
+    position: relative;
+    top: 39px;
+    left: 2px;
+    border-radius: 50%;
+    z-index: 1;
+    text-decoration: none;
+    color: black;
+    transition: all .4s ease-in-out;
+    font-weight: bold;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    /* overflow: visible; */
+    
+}
+
+span{
+    
+    position: relative;
+    top: 15px;
+    left: 18px;
+    width: 19px
+   
+}
+
+a:hover{
+    box-shadow:  0 0 70px  #f8f407;
+    transform: scale(1.4);
+ }
+ 
+ #badge{
+     position: relative;
+     left: 47%;
+     padding: 0.5;
+     width: 5rem;
+     height: 5rem;
+     /* border: 4px solid red; */
+     border-radius: 4% 50% 38% 200%;
+     outline: none;
+     /* overflow: hidden; */
+     background: #000000;
+     color: #ffca1d;
+     font-size: 1rem;
+     transition: all .4s ease-in-out;
+     border: none;
+     
+
+ }
+
+ #badge:hover{
+    box-shadow:  0 0 70px  #f8f407;
+    transform: scale(1.2);
+ }
+
+ img{
+     height: 25px;
+     width: 35px;
+     position: relative;
+     left: -4%;
+ }
+
